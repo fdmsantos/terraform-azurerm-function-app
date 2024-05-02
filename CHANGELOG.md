@@ -1,3 +1,8 @@
+# Unreleased
+
+Added
+  *  Add `auth_settings_v2` block
+
 ## 7.9.0 (2024-04-19)
 
 
