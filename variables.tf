@@ -145,7 +145,7 @@ variable "staging_slot_custom_application_settings" {
   default     = null
 }
 
-variable "auth_settings_v2" {
+variable "function_app_auth_settings_v2" {
   description = "Authentication settings V2. See https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_function_app#auth_settings_v2"
   type        = any
   default     = {}

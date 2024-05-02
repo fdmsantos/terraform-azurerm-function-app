@@ -190,7 +190,6 @@ No resources.
 | application\_insights\_sampling\_percentage | Percentage of data produced by the monitored application sampled for Application Insights telemetry. | `number` | `null` | no |
 | application\_insights\_type | Application Insights type if need to be generated. See documentation https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/application_insights#application_type | `string` | `"web"` | no |
 | application\_zip\_package\_path | Local or remote path of a zip package to deploy on the Function App. | `string` | `null` | no |
-| auth\_settings\_v2 | Authentication settings V2. See https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_function_app#auth_settings_v2 | `any` | `{}` | no |
 | authorized\_ips | IPs restriction for Function in CIDR format. See documentation https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/function_app#ip_restriction | `list(string)` | `[]` | no |
 | authorized\_service\_tags | Service Tags restriction for Function App. See documentation https://www.terraform.io/docs/providers/azurerm/r/function_app.html#ip_restriction | `list(string)` | `[]` | no |
 | authorized\_subnet\_ids | Subnets restriction for Function App. See documentation https://www.terraform.io/docs/providers/azurerm/r/function_app.html#ip_restriction | `list(string)` | `[]` | no |
@@ -204,6 +203,7 @@ No resources.
 | extra\_tags | Extra tags to add. | `map(string)` | `{}` | no |
 | function\_app\_application\_settings | Function App application settings. | `map(string)` | `{}` | no |
 | function\_app\_application\_settings\_drift\_ignore | Ignore drift from settings manually set. | `bool` | `true` | no |
+| function\_app\_auth\_settings\_v2 | Authentication settings V2. See https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_function_app#auth_settings_v2 | `any` | `{}` | no |
 | function\_app\_custom\_name | Custom name for function app. | `string` | `""` | no |
 | function\_app\_extra\_tags | Extra tags to add to Function App. | `map(string)` | `{}` | no |
 | function\_app\_name\_prefix | Function App name prefix. | `string` | `""` | no |
